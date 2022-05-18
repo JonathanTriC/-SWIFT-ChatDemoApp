@@ -11,6 +11,11 @@
 		BBC5003E2833DCA8005CEB3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC5003D2833DCA8005CEB3A /* ContentView.swift */; };
 		BBC500402833DCAB005CEB3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC5003F2833DCAB005CEB3A /* Assets.xcassets */; };
 		BBC500432833DCAB005CEB3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC500422833DCAB005CEB3A /* Preview Assets.xcassets */; };
+		BBC5004B2833E298005CEB3A /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC5004A2833E298005CEB3A /* TitleRow.swift */; };
+		BBC5004E2833E761005CEB3A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC5004D2833E761005CEB3A /* Message.swift */; };
+		BBC500522833E7FD005CEB3A /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC500512833E7FD005CEB3A /* MessageBubble.swift */; };
+		BBC500542833EBE9005CEB3A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC500532833EBE9005CEB3A /* Extension.swift */; };
+		BBC5005628348544005CEB3A /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC5005528348544005CEB3A /* MessageField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		BBC5003D2833DCA8005CEB3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BBC5003F2833DCAB005CEB3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBC500422833DCAB005CEB3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBC5004A2833E298005CEB3A /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
+		BBC5004D2833E761005CEB3A /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		BBC500512833E7FD005CEB3A /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		BBC500532833EBE9005CEB3A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		BBC5005528348544005CEB3A /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,11 @@
 			children = (
 				BBC5003B2833DCA8005CEB3A /* ChatDemoAppApp.swift */,
 				BBC5003D2833DCA8005CEB3A /* ContentView.swift */,
+				BBC5004C2833E750005CEB3A /* Models */,
+				BBC500492833E27F005CEB3A /* Components */,
 				BBC5003F2833DCAB005CEB3A /* Assets.xcassets */,
 				BBC500412833DCAB005CEB3A /* Preview Content */,
+				BBC500532833EBE9005CEB3A /* Extension.swift */,
 			);
 			path = ChatDemoApp;
 			sourceTree = "<group>";
@@ -65,6 +78,24 @@
 				BBC500422833DCAB005CEB3A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBC500492833E27F005CEB3A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BBC5004A2833E298005CEB3A /* TitleRow.swift */,
+				BBC500512833E7FD005CEB3A /* MessageBubble.swift */,
+				BBC5005528348544005CEB3A /* MessageField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BBC5004C2833E750005CEB3A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BBC5004D2833E761005CEB3A /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBC5003E2833DCA8005CEB3A /* ContentView.swift in Sources */,
+				BBC5004E2833E761005CEB3A /* Message.swift in Sources */,
+				BBC500522833E7FD005CEB3A /* MessageBubble.swift in Sources */,
+				BBC5005628348544005CEB3A /* MessageField.swift in Sources */,
+				BBC500542833EBE9005CEB3A /* Extension.swift in Sources */,
 				BBC5003C2833DCA8005CEB3A /* ChatDemoAppApp.swift in Sources */,
+				BBC5004B2833E298005CEB3A /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
