@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BB3393DC2835D61700B97EF9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = BB3393DB2835D61700B97EF9 /* FirebaseFirestore */; };
 		BB3393DE2835D61700B97EF9 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BB3393DD2835D61700B97EF9 /* FirebaseFirestoreSwift */; };
+		BB3393E02835D9A000B97EF9 /* MessagesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3393DF2835D9A000B97EF9 /* MessagesManager.swift */; };
 		BBA0361E28353149007E49FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBA0361D28353148007E49FE /* GoogleService-Info.plist */; };
 		BBC5003C2833DCA8005CEB3A /* ChatDemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC5003B2833DCA8005CEB3A /* ChatDemoAppApp.swift */; };
 		BBC5003E2833DCA8005CEB3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC5003D2833DCA8005CEB3A /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB3393DF2835D9A000B97EF9 /* MessagesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesManager.swift; sourceTree = "<group>"; };
 		BBA0361D28353148007E49FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BBC500382833DCA8005CEB3A /* ChatDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC5003B2833DCA8005CEB3A /* ChatDemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDemoAppApp.swift; sourceTree = "<group>"; };
@@ -69,12 +71,13 @@
 			children = (
 				BBC5003B2833DCA8005CEB3A /* ChatDemoAppApp.swift */,
 				BBC5003D2833DCA8005CEB3A /* ContentView.swift */,
+				BBC500532833EBE9005CEB3A /* Extension.swift */,
+				BB3393DF2835D9A000B97EF9 /* MessagesManager.swift */,
+				BBA0361D28353148007E49FE /* GoogleService-Info.plist */,
 				BBC5004C2833E750005CEB3A /* Models */,
 				BBC500492833E27F005CEB3A /* Components */,
-				BBC5003F2833DCAB005CEB3A /* Assets.xcassets */,
 				BBC500412833DCAB005CEB3A /* Preview Content */,
-				BBC500532833EBE9005CEB3A /* Extension.swift */,
-				BBA0361D28353148007E49FE /* GoogleService-Info.plist */,
+				BBC5003F2833DCAB005CEB3A /* Assets.xcassets */,
 			);
 			path = ChatDemoApp;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				BBC5003E2833DCA8005CEB3A /* ContentView.swift in Sources */,
 				BBC5004E2833E761005CEB3A /* Message.swift in Sources */,
 				BBC500522833E7FD005CEB3A /* MessageBubble.swift in Sources */,
+				BB3393E02835D9A000B97EF9 /* MessagesManager.swift in Sources */,
 				BBC5005628348544005CEB3A /* MessageField.swift in Sources */,
 				BBC500542833EBE9005CEB3A /* Extension.swift in Sources */,
 				BBC5003C2833DCA8005CEB3A /* ChatDemoAppApp.swift in Sources */,
